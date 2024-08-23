@@ -48,11 +48,39 @@ commands:
   - tellraw
 messages:
   whitelist: You are not whitelisted on this server!
-  unknown-command: Unknown command. Type "/help" for help.
-  server-full: The server is full!
-  outdated-client: Outdated client! Please use {0}
-  outdated-server: Outdated server! I'm still on {0}
-  restart: Server is restarting
+  unknown-command: §7§l[§c§l!§7§l] §c§l未知命令! §f使用 §a§nF键§r 打开菜单
+  server-full: |-
+    §7[§a§l盛世§b§l闲庭§e§l丨§2§l服务观测§7]
+    
+    §c&l连接错误
+    
+    §e§l原因: §f服务器人数达到上限
+    
+    §a§l加群反馈: §f§n314 910 111
+  outdated-client: |-
+    §7[§a§l盛世§b§l闲庭§e§l丨§2§l服务观测§7]
+    
+    §c&l连接错误
+    
+    §e§l原因: §f客户端版本过低, 请使用 {0} 进服
+    
+    §a§l加群反馈: §f§n314 910 111
+  outdated-server: |-
+    §7[§a§l盛世§b§l闲庭§e§l丨§2§l服务观测§7]
+    
+    §c&l连接错误
+    
+    §e§l原因: §f客户端版本过高, 请使用 {0} 进服
+    
+    §a§l加群反馈: §f§n314 910 111
+  restart: |-
+    §7[§a§l盛世§b§l闲庭§e§l丨§2§l服务观测§7]
+    
+    §c&l连接错误
+    
+    §e§l原因: §f服务器重启
+    
+    §a§l加群反馈: §f§n314 910 111
 advancements:
   disable-saving: false
   disabled:
