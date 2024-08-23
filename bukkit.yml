@@ -21,7 +21,10 @@ settings:
   connection-throttle: 4000
   query-plugins: true
   deprecated-verbose: default
-  shutdown-message: Server closed
+  shutdown-message: |-
+    §7[§a§l盛世§b§l闲庭§e§l丨§2§l服务观测§7]
+
+    §c§l服务器重启中
 spawn-limits:
   monsters: 70
   animals: 15
